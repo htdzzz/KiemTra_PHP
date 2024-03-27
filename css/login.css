@@ -1,0 +1,40 @@
+.login-container {
+    position: absolute;
+    /* Đặt vị trí tuyệt đối */
+    top: 50%;
+    /* Đặt vị trí ở giữa theo chiều dọc */
+    left: 50%;
+    /* Đặt vị trí ở giữa theo chiều ngang */
+    transform: translate(-50%, -50%);
+    /* Dịch chuyển container đi một nửa chiều rộng và chiều cao của nó để đặt trung tâm */
+    width: 300px;
+    /* Độ rộng của container */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+    margin-top: 20px;
+    /* Khoảng cách giữa tiêu đề và form đăng nhập */
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: red;
+}
